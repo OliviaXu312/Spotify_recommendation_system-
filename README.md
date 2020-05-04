@@ -39,3 +39,12 @@ Before we build the machine learning model for this project, first we need to kn
 
 The dataset we use consists of two parts. The first part is as what we introduced before, containing all the user action upon a single track for a session, including information of skipping, seeking back, etc. The other part of the data contains specific features of these tracks. The columns include the same ‘track_id’, loudness, danceability, tempo, time signature, etc. All these variables are vectorized to numbers beforehand. The rows do not contain any missing value or NA. So the dataset is very clean, and ready to use. The pictures below show a short glance of the two parts of data. 
 
+
+# Methdology
+
+Recommendation systems predict what users would like in the future based on their behavior patterns. The most basic models for recommendation systems are collaborative filtering models.  
+
+Collaborative filtering models which are based on the assumption that people tend to like things similar to the historical things they like, and things liked by other people who have the same favour with them. 
+
+In this project, we used matrix factorization-based collaborative filtering, that treats the entries in the user-item matrix as explicit preferences given by the user to the item, for example, users giving rating to movies. So to the spotify dataset, firstly, an explicit rating to each movie should be defined. The rating formula is defined as follows.
+
