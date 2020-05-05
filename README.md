@@ -13,9 +13,9 @@ Xinya Xu
 Wenhao Jiang
 Leilin Wang
 
-# 
+ 
 
-File introduction:
+# File introduction:
 # ANLY 502 Final Report.docx
 The final report of project, writeup with graphs including introduction of the project, Data Exploration, methodology, result and conclusion. 
 
